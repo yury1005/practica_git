@@ -24,17 +24,13 @@ if option not in [1,2,3]:
     exit()
 else:
     numeros()
-    print("hola")
+    
     if option == 1:
+        
         suma(a,b)
     elif option == 2:
         resta(a, b)
     elif option == 3:
-        if b==0:
-            print("No es posible dividir entre 0")
-            exit()
-            
-        else:
-            division(a, b)
+       division(a, b)
 
     
