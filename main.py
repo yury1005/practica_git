@@ -3,8 +3,8 @@ global a, b
 
 def numeros():
     global a, b
-    a = int(input("Introduzca el primer número"))
-    b = int(input("Introduzca el segundo número "))
+    a = int(input("Introduzca el primer número: "))
+    b = int(input("Introduzca el segundo número:  "))
     return (a, b )
 
 option = input("""
@@ -34,6 +34,7 @@ else:
             print("No es posible dividir entre 0")
             exit()
             
-        division(a, b)
+        else:
+            division(a, b)
 
     
